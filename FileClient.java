@@ -120,7 +120,7 @@ public class FileClient {
     {
         if (args.length != 3)
         {
-            System.out.println("Syntax : java SecretClient <ip-address> <port-number> <filename>");
+            System.out.println("Syntax : java FileClient <ip-address> <port-number> <filename>");
             System.exit(0);
         }
         String hostname = args[0];
